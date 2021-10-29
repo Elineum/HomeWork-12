@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+body {
+    background-color: #B07CF7;
+    font-family: 'Raleway', sans-serif;
+}
+
+.blog, .button {
+    color: white;
+}
+
+.blog__title {
+    padding: 100px 0 20px;
+    font-size: 90px;
+}
+
+.blog_title-wrapper {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.blog__item-a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    transition: all ease-in-out 0.3s;
+}
+
+.blog__text-wrapper {
+    width: 600px;
+    font-size: 17px;
+    padding-bottom: 30px;
+    max-width: 100%;
+}
+
+.blog__block {
+    position: relative;
+}
+
+.blog__article-content {
+    font-size: 20px;
+}
+
+.blog__article-footer {
+    font-size: 13px;
+    padding-top: 10px;
+}
+
+.blog__list {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    margin-bottom: 30px;
+}
+
+.blog__item {
+    padding: 0 10px;
+}
+
+.blog__date {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    width: 60px;
+    background-color: rgba(0, 0, 0, .5);
+    border-radius: 10%;
+    position: absolute;
+    left: 30px;
+    top: 30px;
+    color: white;
+    font-size: 21px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 0.95;
+}
+
+.blog__date span:first-child {
+    font-size: 32px;
+}
+
+.conteiner-1, .conteiner-2, .conteiner-3  {
+    position: absolute;
+    background-color: rgba(0, 0, 0, .5);
+    box-shadow: 0 0 3px black;
+    text-align: start;
+    padding: 5px 15px;
+}
+
+.conteiner-1 {
+    max-width: 370px;
+    height: 90px;
+    left: 9px;
+    bottom: 15px;
+}
+
+.conteiner-2 {
+    max-width: 370px;
+    height: 90px;
+    left: 4px;
+    bottom: 10px;
+}
+
+.conteiner-3 {
+    max-width: 370px;
+    height: 90px;
+    left: 4px;
+    bottom: 10px;
+}
+
+.button {
+    padding: 15px 35px;
+    background-color: #F72B3B;
+    border: 0;
+    box-shadow: 0 1px 1px black;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.blog__item-a:hover {
+    filter: drop-shadow(0 0 5px #F72B3B);
+}
